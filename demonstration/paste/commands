@@ -1,0 +1,5 @@
+# Example Commands
+paste file1 file2 file3
+paste -d" " file1 file2 file3
+paste -s file1 file2 file3
+paste -s wrongOrder1 wrongOrder2

@@ -1,0 +1,20 @@
+# Creating a new Git working directory
+
+# 1. (Optionally) create a new directory that we will "gitify"
+mkdir -p /home/computationalphysics/Documents/cPlusPlus/myProjects
+# 2. Navigate to that directory
+cd /home/computationalphysics/Documents/cPlusPlus/myProjects
+# 3. Invoke "git init" which will set up the hidden .git directory
+git init
+# 4. Check it worked!
+ls -a
+git status
+
+# Cloning an existing git repository
+
+# NOTE: If the directory specified by the local path does not exist, then 
+#       it will be created. 
+git clone https://github.com/hughdickinson/CompPhysL2Shell.git /home/computationalphysics/Documents/theShellGym/lecture2
+
+# Let's clone another repository that we'll need later!
+git clone https://github.com/hughdickinson/CompPhysL2CPP.git /home/computationalphysics/Documents/cPlusPlus/lecture2
